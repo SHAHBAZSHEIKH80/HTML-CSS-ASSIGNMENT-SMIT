@@ -1,0 +1,83 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+table{
+    border: 3px solid white;
+    background-color:black;
+    color: white;
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    
+    
+    
+}
+td,th{
+    border: 1px solid white;
+}
+
+.abc{
+    text-align: center;
+    color: goldenrod;
+}
+.def{
+    background-color: white;
+    color: black;
+    font-size: medium;
+    font-style: italic;
+    font-weight: 700%;
+    
+}
+
+.abc1{
+    background-color: orangered;
+    color: white;
+    font: weight 40px; ;
+}
+
+.abc2{
+    background-color: red;
+    color: white;
+}
+
+.abc3{
+    background-color: blue;
+    color: white;
+}
+
+.mai{
+    color:white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+
+    
+}
+
+body{
+    background-color:aquamarine;
+}
+
+.abc4 button{
+    background-color: red;
+    color: white;
+    margin-left: 15px;
+
+    border-radius: 15px;
+    
+    
+}
+td:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    transition: 2s;
+}
+th:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    transition: 2s;
+}

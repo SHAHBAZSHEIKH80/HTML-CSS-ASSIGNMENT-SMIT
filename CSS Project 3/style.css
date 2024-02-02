@@ -1,0 +1,55 @@
+ul > li{
+    display: inline-block;
+    width: 160px;
+
+}
+li > img{
+    width: 100px;
+
+}
+li > select{
+    width: 100px;
+    border: none;
+    
+    
+}
+.xyz{
+    width: 200px;
+}
+select:hover{
+    color: green;
+    font-weight: bold;
+}
+
+#sign{
+    background-color: green;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    
+
+}
+
+#font{
+    color: green;
+    font-size: 120px;
+    text-align: center;
+    
+}
+#image{
+    width: 500px;
+    
+}
+#para{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+#sign:hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+}
+

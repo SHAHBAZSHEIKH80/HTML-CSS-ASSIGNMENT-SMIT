@@ -1,0 +1,73 @@
+.header{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+
+}
+
+.logo > img{
+    width: 150px;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.nav > li{
+    
+    display: inline-flex;
+    /* vertical-align: top; */
+    /* width: 120px;
+    justify-content: center;
+    position: relative;
+    bottom: -20px;
+    left: 140px; */
+    flex-direction: row;
+    align-items: first baseline;
+    position: relative;
+    top: 20px;
+    
+    
+
+    
+}
+.logo,.menu{
+    display: inline-flex;
+    /* background-color: green; */
+    color: white;
+}
+
+.btn{
+    display: inline-flex;
+    
+    position: relative;
+    bottom: -40px;
+
+
+}
+
+.Franchise{
+    position: relative;
+    right: -200px;
+    top: -20px;
+    padding: 15px 10px 20px 10px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color: black;
+    height: 40px;
+    
+    
+}
+.order{
+    position: relative;
+    right: -250px;
+    top: -20px;
+    padding: 20px 30px 30px 20px;
+    border-radius: 30px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-color: white; 
+}
+
